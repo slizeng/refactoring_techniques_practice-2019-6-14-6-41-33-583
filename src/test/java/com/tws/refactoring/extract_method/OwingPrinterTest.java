@@ -41,7 +41,6 @@ public class OwingPrinterTest {
                         "amount: 0.0\n", outContent.toString());
     }
 
-
     @Test
     public void should_print_banner_and_3_as_amount_when_printOwing_given_orders_with_amount_1_and_2() {
         OwingPrinter owingPrinter = new OwingPrinter();
